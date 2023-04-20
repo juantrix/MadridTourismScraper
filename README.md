@@ -1,19 +1,35 @@
 # MadridTurismScraper
 
-Para poder correr el scraper se tiene que seguir los siguientes pasos:
+To run the scraper, follow these steps:
 
 Linux:
 
-**1- Abrir una terminal y posicionarce en la raiz del repositorio**
+**1- Open a terminal and navigate to the root of the repository**
 
-**2- Crear un entorno virtual de python**
-  ``` python3 -m venv env```
-  
-**3- ingresar al entorno**
-  ```source env/bin/activate```
-  
-**4- instalar las dependencias**
-  ```pip install -r requirements```
-  
-**5- ejecutar el scraper**
-  ```sh scraper.sh```
+**2- Create a Python virtual environment**
+```python3 -m venv env```
+
+**3- Activate the virtual environment**
+```source env/bin/activate```
+
+**4- Install the dependencies**
+```pip install -r requirements```
+
+**5- Run the scraper**
+```sh scraper.sh```
+
+Windows:
+
+**1- Open a terminal and navigate to the root of the repository**
+
+**2- Create a Python virtual environment**
+```python -m venv env```
+
+**3- Activate the virtual environment**
+```env/Scripts/activate```
+
+**4- Install the dependencies**
+```pip install -r requirements```
+
+**5- Run the scraper**
+```sh scraper.sh```
