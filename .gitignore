@@ -1,3 +1,4 @@
 env
 /env
 turismomadrid/turismomadrid/db/database.db
+__pycache__
