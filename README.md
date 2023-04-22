@@ -2,7 +2,7 @@
 
 ## To run the scraper, follow these steps:
 
-Linux:
+Linux(tested):
 
 **1- Open a terminal and navigate to the root of the repository**
 
@@ -20,7 +20,7 @@ Linux:
 
 ---
 
-Windows:
+Windows(not tested):
 
 **1- Open a terminal and navigate to the root of the repository**
 
