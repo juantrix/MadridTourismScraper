@@ -21,6 +21,7 @@ Linux(tested):
 ---
 
 Windows(not tested):
+you need to run it in shell if you want to use the sh file
 
 **1- Open a terminal and navigate to the root of the repository**
 
@@ -35,6 +36,14 @@ Windows(not tested):
 
 **5- Run the scraper**
 ```sh scraper.sh```
+
+The second option without shell its to use directly this commands after the 4th step:
+
+1- ```cd turismomadrid/turismomadrid```
+
+2- ```scrapy crawl madrid_routes_spider```
+
+3- ```pytest```
 
 ---
 The .sh file will execute the scraper, save the data in the database (which will be generated in the corresponding directory) and immediately the tests will be executed
